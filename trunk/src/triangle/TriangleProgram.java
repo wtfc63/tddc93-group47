@@ -18,6 +18,8 @@ public class TriangleProgram {
 			swap(s, 1, 2);
 		}
 
+		System.out.println("mip mip");
+
 		if (s[0] <= 0 || s[2] - s[0] >= s[1]) {
 			throw new IllegalArgumentException("Not a triangle.");
 		}
